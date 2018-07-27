@@ -3,8 +3,8 @@ hask = {
   "yo" => "bro"
 }
 def delete_artist(hask = {}, artist)
-  library.delete(:artist)
-  print library
+  hask.delete(:artist)
+  print hask
 end
 
 puts delete_artist(hask, "hi")
