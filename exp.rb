@@ -2,9 +2,7 @@ hask = {
   "hi" => "bye",
   "yo" => "bro"
 }
-
-def delete(hask, key)
-  print hask[key].delete
+def delete_artist(hask = {}, artist)
+  hask.delete(:artist)
+  print library
 end
-
-print delete(hask, "hi")
