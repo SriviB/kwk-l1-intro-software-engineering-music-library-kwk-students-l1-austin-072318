@@ -3,7 +3,7 @@ hask = {
   "yo" => "bro"
 }
 def delete_artist(hask = {}, artist)
-  hask.delete(:artist)
+  hask.delete(artist)
   print hask
 end
 
