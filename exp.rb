@@ -8,4 +8,4 @@ def delete(hask, key)
   print hask
 end
 
-print delete
+print delete(hask, "hi")
