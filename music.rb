@@ -21,10 +21,9 @@ end
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
 def delete_artist(library = {}, artist)
-  library.delete(:artist)
+  library.delete(artist)
   print library
 end
-
 
 #4. This method should add a new artist and song (key value pair) to the hash and return the updated hash. 
 # This method should accept three arguments, the library hash, the artist, and the song.
