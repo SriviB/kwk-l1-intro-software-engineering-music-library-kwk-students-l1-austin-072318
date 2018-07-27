@@ -2,7 +2,7 @@ hask = {
   "hi" => "bye",
   "yo" => "bro"
 }
-def delete_artist(hask = {}, artist)
-  hask.delete(:artist)
+def delete_artist(library = {}, artist)
+  library.delete(:artist)
   print library
 end
