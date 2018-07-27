@@ -14,6 +14,7 @@ end
 def list_songs(library = {})
   library.each_value do |value|
     puts value
+  end
 end
 
 #3. Define a method `delete_artist`. This method should take delete the key-value pair from the hash based on the artist and returned the updated hash.
