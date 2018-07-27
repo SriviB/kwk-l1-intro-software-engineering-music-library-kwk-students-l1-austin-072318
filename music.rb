@@ -20,7 +20,7 @@ end
 #3. Define a method `delete_artist`. This method should delete the key-value pair from the hash based on the artist and returned the updated hash.
 #This method should take two arguments, the music library hash, and the artist. Remember, keys in hashes are symbols, so you'll need to expect the method to accept the artist as a symbol. 
 
-def delete_artist(library = {}, library[artist])
+def delete_artist(library = {}, artist
   artist = library[artist]
   new_lib = library.delete(artist)
   print new_lib
