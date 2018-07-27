@@ -7,4 +7,4 @@ def delete_artist(hask = {}, artist)
   print library
 end
 
-delete_via_redirect
+puts delete_artist(hask, "hi")
