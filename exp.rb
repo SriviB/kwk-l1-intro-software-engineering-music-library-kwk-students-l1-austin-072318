@@ -4,8 +4,7 @@ hask = {
 }
 
 def delete(hask, key)
-  hask[key].delete
-  print hask
+  print hask[key].delete
 end
 
 print delete(hask, "hi")
