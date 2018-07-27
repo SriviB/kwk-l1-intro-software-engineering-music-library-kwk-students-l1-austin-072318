@@ -4,7 +4,7 @@
 
 def list_artists(library)
   hash.each_key do |library|
-    puts key
+     key
   end
 end
 
