@@ -7,3 +7,5 @@ def delete(hask, key)
   hask[key].delete
   print hask
 end
+
+print delete
