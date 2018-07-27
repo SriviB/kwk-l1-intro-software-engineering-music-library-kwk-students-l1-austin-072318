@@ -6,3 +6,5 @@ def delete_artist(hask = {}, artist)
   library.delete(:artist)
   print library
 end
+
+delete_via_redirect
